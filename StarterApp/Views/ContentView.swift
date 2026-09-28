@@ -3,14 +3,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Tab("Home", systemImage: "house.fill") {
-                HomeView()
+            Tab("Overview", systemImage: "house.fill") {
+                DashboardView()
             }
-            Tab("Explore", systemImage: "safari.fill") {
-                ExploreView()
+            Tab("Plan", systemImage: "list.bullet.rectangle.portrait") {
+                BudgetPlanView()
             }
-            Tab("Profile", systemImage: "person.fill") {
-                ProfileView()
+            Tab("Activity", systemImage: "creditcard") {
+                ActivityView()
             }
             Tab("Settings", systemImage: "gearshape.fill") {
                 SettingsView()

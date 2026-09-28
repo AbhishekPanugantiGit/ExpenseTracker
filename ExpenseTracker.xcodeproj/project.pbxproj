@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A10000000000000000000120 /* StarterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000120 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -39,7 +38,7 @@
 		A10000000000000000000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000120 /* StarterApp.app */,
+				A10000000000000000000120 /* ExpenseTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000010000000000000000 /* StarterApp */ = {
+		A10000010000000000000000 /* ExpenseTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10000011000000000000000 /* Build configuration list for PBXNativeTarget "StarterApp" */;
+			buildConfigurationList = A10000011000000000000000 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
 			buildPhases = (
 				A10000012000000000000000 /* Sources */,
 				A10000013000000000000000 /* Frameworks */,
@@ -57,14 +56,12 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				A10000000000000000000010 /* StarterApp */,
 			);
-			name = StarterApp;
-			productName = StarterApp;
-			productReference = A10000000000000000000120 /* StarterApp.app */;
+			name = ExpenseTracker;
+			productName = ExpenseTracker;
+			productReference = A10000000000000000000120 /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -82,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A10000001000000000000000 /* Build configuration list for PBXProject "StarterApp" */;
+			buildConfigurationList = A10000001000000000000000 /* Build configuration list for PBXProject "ExpenseTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -96,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000010000000000000000 /* StarterApp */,
+				A10000010000000000000000 /* ExpenseTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -106,7 +103,6 @@
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
@@ -115,12 +111,11 @@
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A10000001100000000000000 /* Debug */ = {
+		A10000001100000000000000 /* Debug configuration for PBXProject "ExpenseTracker" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		A10000001200000000000000 /* Release */ = {
+		A10000001200000000000000 /* Release configuration for PBXProject "ExpenseTracker" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +236,7 @@
 			};
 			name = Release;
 		};
-		A10000011100000000000000 /* Debug */ = {
+		A10000011100000000000000 /* Debug configuration for PBXNativeTarget "ExpenseTracker" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -250,7 +245,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = StarterApp;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expense Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -273,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		A10000011200000000000000 /* Release */ = {
+		A10000011200000000000000 /* Release configuration for PBXNativeTarget "ExpenseTracker" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -282,7 +277,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = StarterApp;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expense Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,22 +303,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10000001000000000000000 /* Build configuration list for PBXProject "StarterApp" */ = {
+		A10000001000000000000000 /* Build configuration list for PBXProject "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000001100000000000000 /* Debug */,
-				A10000001200000000000000 /* Release */,
+				A10000001100000000000000 /* Debug configuration for PBXProject "ExpenseTracker" */,
+				A10000001200000000000000 /* Release configuration for PBXProject "ExpenseTracker" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10000011000000000000000 /* Build configuration list for PBXNativeTarget "StarterApp" */ = {
+		A10000011000000000000000 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000011100000000000000 /* Debug */,
-				A10000011200000000000000 /* Release */,
+				A10000011100000000000000 /* Debug configuration for PBXNativeTarget "ExpenseTracker" */,
+				A10000011200000000000000 /* Release configuration for PBXNativeTarget "ExpenseTracker" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
